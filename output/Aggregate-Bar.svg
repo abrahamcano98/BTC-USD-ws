@@ -1,0 +1,68 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(72, 364)">
+<g>
+<rect fill="darkolivegreen" height="113.05446015079129" stroke="black" width="80" x="40" y="-113.05446015079129"/>
+</g>
+<g>
+<rect fill="darkolivegreen" height="116.01336950766127" stroke="black" width="80" x="200" y="-116.01336950766127"/>
+</g>
+<g>
+<rect fill="darkolivegreen" height="122.6802589027556" stroke="black" width="80" x="360" y="-122.6802589027556"/>
+</g>
+<g>
+<rect fill="darkolivegreen" height="309.09090909090907" stroke="black" width="80" x="40" y="-309.09090909090907"/>
+</g>
+<g>
+<g>
+<line stroke="black" stroke-width="1" x1="80" x2="80" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="240" x2="240" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="400" x2="400" y1="0" y2="10"/>
+</g>
+<line stroke="black" stroke-width="1" x1="0" x2="480" y1="0" y2="0"/>
+<g>
+<text font-size="12" text-anchor="middle" x="80" y="20">
+57472.33
+</text>
+<text font-size="12" text-anchor="middle" x="240" y="20">
+57464.03
+</text>
+<text font-size="12" text-anchor="middle" x="400" y="20">
+57468.05
+</text>
+</g>
+<text font-size="12" text-anchor="middle" x="240" y="30">
+BTC-USD
+</text>
+</g>
+<g>
+<g>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-0" y2="-0"/>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-68.0989494180219" y2="-68.0989494180219"/>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-136.1978988360438" y2="-136.1978988360438"/>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-204.29684825406568" y2="-204.29684825406568"/>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-272.3957976720876" y2="-272.3957976720876"/>
+</g>
+<line stroke="black" stroke-width="1" x1="0" x2="0" y1="0" y2="-340"/>
+<g>
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-0">
+0
+</text>
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-68.0989494180219">
+0.2
+</text>
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-136.1978988360438">
+0.4
+</text>
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-204.29684825406568">
+0.6
+</text>
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-272.3957976720876">
+0.8
+</text>
+</g>
+<text font-size="12" text-anchor="middle" transform="rotate(-90 -36 -170)" x="-36" y="-182">
+
+</text>
+</g>
+</g>
+</svg>
