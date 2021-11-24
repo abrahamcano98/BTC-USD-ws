@@ -103,7 +103,7 @@ pub fn ws_connection(path: &str,verbose: bool,time_exec: u64)->Vec<Sample>{
         let msg = socket.read_message().expect("Error reading message");
         let msg = match msg {
             tungstenite::Message::Text(s) => { s }
-            _ => { panic!() }
+            _ => { panic!("Problem when listening to the websocket. Please, execute the program again") }
         };
 
         let parsed: serde_json::Value = serde_json::from_str(&msg).expect("Can't parse to JSON");
