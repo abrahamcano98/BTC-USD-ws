@@ -1,0 +1,1 @@
+{"rustc":5475348352969617417,"features":"[]","target":14146565015091796690,"profile":2285152228202085614,"path":9285068578493281558,"deps":[[5446671772788924685,"byteorder",false,8766288136832496137]],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/gnuplot-b5129bb5e67bcdef/dep-lib-gnuplot"}}],"rustflags":[],"metadata":5500904330120574400,"config":0,"compile_kind":0}

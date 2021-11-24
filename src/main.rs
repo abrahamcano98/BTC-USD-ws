@@ -12,7 +12,7 @@ fn main(){
     
     match mode.as_str(){
         "cache" => {
-            let data=utilities::connection("ws/btcusdt@trade",false,10);
+            let data=utilities::connection("ws/btcusdt@trade",true,10);
             utilities::write_data("BTC-USD.txt",data,true);
     },
         "read" =>{utilities::show_data()},

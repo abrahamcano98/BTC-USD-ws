@@ -24,6 +24,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aae1277d39aeec15cb388266ecc24b11c80469deae6067e17a1a7aa9e5c1f234"
 
 [[package]]
+name = "antidote"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "34fde25430d87a9388dadbe6e34d7f72a462c8b43ac8d309b42b0a8505d7e2a5"
+
+[[package]]
 name = "autocfg"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -113,8 +119,11 @@ dependencies = [
  "futures",
  "gnuplot",
  "http",
+ "hyper",
+ "hyper-native-tls",
  "iron",
  "itertools",
+ "json",
  "native-tls",
  "plotlib",
  "plotters",
@@ -698,6 +707,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "hyper-native-tls"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6d375598f442742b0e66208ee12501391f1c7ac0bafb90b4fe53018f81f06068"
+dependencies = [
+ "antidote",
+ "hyper",
+ "native-tls",
+]
+
+[[package]]
 name = "idna"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -798,6 +818,12 @@ checksum = "7cc9ffccd38c451a86bf13657df244e9c3f37493cce8e5e21e940963777acc84"
 dependencies = [
  "wasm-bindgen",
 ]
+
+[[package]]
+name = "json"
+version = "0.11.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "92c245af8786f6ac35f95ca14feca9119e71339aaab41e878e7cdd655c97e9e5"
 
 [[package]]
 name = "kernel32-sys"

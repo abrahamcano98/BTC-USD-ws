@@ -1,0 +1,13 @@
+/home/abraham/Desktop/Projects/SupraOracles/BTC-USD-ws/target/release/deps/url-2b621956cec96220.rmeta: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs
+
+/home/abraham/Desktop/Projects/SupraOracles/BTC-USD-ws/target/release/deps/liburl-2b621956cec96220.rlib: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs
+
+/home/abraham/Desktop/Projects/SupraOracles/BTC-USD-ws/target/release/deps/url-2b621956cec96220.d: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs
+
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs:

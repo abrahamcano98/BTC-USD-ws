@@ -11,7 +11,20 @@ use std::time::Instant;
 use serde_json;
 use std::fs;
 use std::io::{BufWriter, Write};
-use itertools::Itertools; 
+use itertools::Itertools;
+
+
+extern crate hyper;
+extern crate hyper_native_tls;
+
+
+
+use hyper::Client;
+use hyper::net::HttpsConnector;
+use hyper_native_tls::NativeTlsClient;
+use std::io::Read;
+
+
 
 use crate::visualization;
 
@@ -28,6 +41,23 @@ pub struct Sample {
 
 /*Function to establish a connection with the binance websocket and pick up the data
 from it for "time_exec" seconds */
+
+fn connection_api(path: &str)->f32{
+    let ssl = NativeTlsClient::new().unwrap();
+    let connector = HttpsConnector::new(ssl);
+    let client = Client::with_connector(connector);
+
+    let mut usdusdt_request =
+        client.get(path).send().unwrap();
+    
+
+
+    let mut usdusdt_json = String::new();
+    usdusdt_request.read_to_string(&mut usdusdt_json).unwrap();
+
+    let parsed: serde_json::Value = serde_json::from_str(&usdusdt_json).expect("Can't parse to JSON");
+    parsed["USD"].as_f64().unwrap() as f32
+}
 pub fn connection(path: &str,verbose: bool,time_exec: u64)->Vec<Sample>{
     static BINANCE_WS_API: &str = "wss://stream.binance.com:9443";
 
@@ -49,8 +79,10 @@ pub fn connection(path: &str,verbose: bool,time_exec: u64)->Vec<Sample>{
     //Loop to retrieve the data from the websocket and store them into the vector sample_vec.
     
     let mut sample_vec =  std::vec::Vec::new();
-    let now = Instant::now();
+    let usdusdt=connection_api("http://min-api.cryptocompare.com/data/price?fsym=USDT&tsyms=USD");
     println!("{}","Receiving data...");
+    let now = Instant::now();
+
     
     
     while  now.elapsed().as_secs() < time_exec  {
@@ -62,7 +94,7 @@ pub fn connection(path: &str,verbose: bool,time_exec: u64)->Vec<Sample>{
         let parsed: serde_json::Value = serde_json::from_str(&msg).expect("Can't parse to JSON");
         let price_sample: f32=parsed["p"].as_str().unwrap().parse().unwrap();
         let quantity_sample: f32=parsed["q"].as_str().unwrap().parse().unwrap();
-        sample_vec.push(Sample{price:price_sample, quantity:quantity_sample});
+        sample_vec.push(Sample{price:(price_sample*usdusdt), quantity:quantity_sample});
     }
     println!("{}","Cache Complete");
     sample_vec
@@ -75,13 +107,13 @@ pub fn connection(path: &str,verbose: bool,time_exec: u64)->Vec<Sample>{
 
 
 /*Function to write the data received from the ws to a .txt file. If save_img==true, it returns a bar plot
-of the aggregate  and the evolution of the BTC-USDT price during 10 seconds.*/
+of the aggregate  and the evolution of the BTC-USD price during 10 seconds.*/
 pub fn write_data(file_name: &str, input_data: Vec<Sample>, save_img: bool){
     fs::create_dir_all("output").expect("Not able to create a directory for results");
     let f = fs::File::create(format!("output/{}",file_name)).expect("unable to create file");
     let mut f = BufWriter::new(f);
     writeln!(f,"Raw trade stream \n \n").expect("Unable to write");
-    writeln!(f,"BTC-USDT  \t\t  Quantity").expect("Unable to write");
+    writeln!(f,"BTC-USD  \t\t  Quantity").expect("Unable to write");
     
     let mut aggregate=std::collections::HashMap::new();
     for sample in &input_data {
@@ -92,7 +124,7 @@ pub fn write_data(file_name: &str, input_data: Vec<Sample>, save_img: bool){
 
     
     writeln!(f,"\n \nAggregated volume prices \n \n").expect("Unable to write");
-    writeln!(f,"BTC-USDT  \t\t  Quantity").expect("Unable to write");
+    writeln!(f,"BTC-USD  \t\t  Quantity").expect("Unable to write");
 
     for key in aggregate.keys().sorted(){
         writeln!(f, "{} \t \t {}", key, format!("{:.5}",aggregate[key])).expect("Unable to write");

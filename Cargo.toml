@@ -21,3 +21,11 @@ native-tls="0.2.8"
 gnuplot="0.0.37"
 plotlib="0.5.1"
 plotters="^0.3.1"
+hyper="^0.10"
+hyper-native-tls="0.3.0"
+json="^0.11"
+
+
+[[bin]]
+name = "client"
+path = "src/main.rs"
