@@ -118,12 +118,6 @@ pub fn ws_connection(path: &str,verbose: bool,time_exec: u64)->Vec<Sample>{
     sample_vec
 }
 
-
-
-
-
-
-
 /// Function to write the data obtained from the socket in a txt file, and generate a plot if wanted.
 //from it.
 ///
