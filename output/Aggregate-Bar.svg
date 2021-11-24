@@ -1,30 +1,44 @@
 <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
 <g transform="translate(72, 364)">
 <g>
-<rect fill="darkolivegreen" height="13.791915003905508" stroke="black" width="80" x="40" y="-13.791915003905508"/>
+<rect fill="darkolivegreen" height="103.63500902613151" stroke="black" width="48" x="24" y="-103.63500902613151"/>
 </g>
 <g>
-<rect fill="darkolivegreen" height="309.09090909090907" stroke="black" width="80" x="200" y="-309.09090909090907"/>
+<rect fill="darkolivegreen" height="213.8803145197807" stroke="black" width="48" x="120" y="-213.8803145197807"/>
 </g>
 <g>
-<rect fill="darkolivegreen" height="23.004483236139222" stroke="black" width="80" x="360" y="-23.004483236139222"/>
+<rect fill="darkolivegreen" height="27.527724626870885" stroke="black" width="48" x="216" y="-27.527724626870885"/>
+</g>
+<g>
+<rect fill="darkolivegreen" height="309.09090909090907" stroke="black" width="48" x="312" y="-309.09090909090907"/>
+</g>
+<g>
+<rect fill="darkolivegreen" height="48.47530372920338" stroke="black" width="48" x="408" y="-48.47530372920338"/>
 </g>
 <g>
 <g>
-<line stroke="black" stroke-width="1" x1="80" x2="80" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="48" x2="48" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="144" x2="144" y1="0" y2="10"/>
 <line stroke="black" stroke-width="1" x1="240" x2="240" y1="0" y2="10"/>
-<line stroke="black" stroke-width="1" x1="400" x2="400" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="336" x2="336" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="432" x2="432" y1="0" y2="10"/>
 </g>
 <line stroke="black" stroke-width="1" x1="0" x2="480" y1="0" y2="0"/>
 <g>
-<text font-size="12" text-anchor="middle" x="80" y="20">
-57151.91
+<text font-size="12" text-anchor="middle" x="48" y="20">
+56514.42
+</text>
+<text font-size="12" text-anchor="middle" x="144" y="20">
+56511.10
 </text>
 <text font-size="12" text-anchor="middle" x="240" y="20">
-57150.00
+56520.38
 </text>
-<text font-size="12" text-anchor="middle" x="400" y="20">
-57152.37
+<text font-size="12" text-anchor="middle" x="336" y="20">
+56527.41
+</text>
+<text font-size="12" text-anchor="middle" x="432" y="20">
+56530.16
 </text>
 </g>
 <text font-size="12" text-anchor="middle" x="240" y="30">
@@ -34,31 +48,23 @@ BTC-USD
 <g>
 <g>
 <line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-0" y2="-0"/>
-<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-59.86074323272253" y2="-59.86074323272253"/>
-<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-119.72148646544505" y2="-119.72148646544505"/>
-<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-179.58222969816757" y2="-179.58222969816757"/>
-<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-239.4429729308901" y2="-239.4429729308901"/>
-<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-299.30371616361265" y2="-299.30371616361265"/>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-92.67814184682238" y2="-92.67814184682238"/>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-185.35628369364477" y2="-185.35628369364477"/>
+<line stroke="black" stroke-width="1" x1="0" x2="-10" y1="-278.03442554046717" y2="-278.03442554046717"/>
 </g>
 <line stroke="black" stroke-width="1" x1="0" x2="0" y1="0" y2="-340"/>
 <g>
 <text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-0">
 0
 </text>
-<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-59.86074323272253">
-0.5
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-92.67814184682238">
+0.4
 </text>
-<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-119.72148646544505">
-1
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-185.35628369364477">
+0.8
 </text>
-<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-179.58222969816757">
-1.5
-</text>
-<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-239.4429729308901">
-2
-</text>
-<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-299.30371616361265">
-2.5
+<text dominant-baseline="middle" font-size="12" text-anchor="end" x="-15" y="-278.03442554046717">
+1.2
 </text>
 </g>
 <text font-size="12" text-anchor="middle" transform="rotate(-90 -36 -170)" x="-36" y="-182">

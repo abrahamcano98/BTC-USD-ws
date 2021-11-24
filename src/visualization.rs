@@ -9,10 +9,16 @@ use std::collections::HashMap;
 use std::iter::FromIterator;
 use itertools::Itertools; 
 
-use crate::utilities;
+use crate::core;
 
-/*Function to display a graph of the raw trade stream returned by the Binance websocket stream.*/
-pub fn time_series_plot(input_data: Vec<utilities::Sample>) -> Result<(), Box<dyn std::error::Error>> {
+
+    /// Function to generate the time-series plot of the raw trade stream returned by the Binance websocket.
+    ///
+    ///
+    /// Arguments:
+    ///
+    /// * `input_data`: Vector with a tuple (price,quantity) for each trade raw stram.
+pub fn time_series_plot(input_data: Vec<core::Sample>) -> Result<(), Box<dyn std::error::Error>> {
     
     let mut price_time=std::vec::Vec::new();
     let sample_len:f32=input_data.len() as f32;
@@ -60,14 +66,25 @@ pub fn time_series_plot(input_data: Vec<utilities::Sample>) -> Result<(), Box<dy
 /*Function to display a bar plot of the computed aggregate. It
 masks the values with a window of size 8 due to technical issues
 TODO: Try to show 'xlabel' on a horizontal way*/
+
+    /// Function to display a bar plot of the computed aggregate. It
+    /// masks the values with a window of size 8 due to technical issues
+    ///TODO: Try to show 'xlabel' on a horizontal way.
+    ///
+    ///
+    /// Arguments:
+    ///
+    /// * `aggregate`: Hashmaps with key equal to price and value equal to aggregated value of the price. 
 pub fn bar_plot(aggregate:HashMap::<std::string::String, f32>){
+    
     let mut aggregated_value:f32 =0.0;
     let  mut v = CategoricalView::new().x_label("BTC-USD");
     let mut label=Vec::from_iter(aggregate.keys())[0];
     let mut i=1;
+    
     for key in aggregate.keys().sorted(){
         if i%8==0{
-            let b=BarChart::new(aggregated_value.into()).label(label).style(&BoxStyle::new().fill("darkolivegreen"));
+            let b=BarChart::new(aggregated_value.into()).label(label).style(&BoxStyle::new().fill("red"));
             v=v.add(b);
             label=key;
             aggregated_value=0.0;
