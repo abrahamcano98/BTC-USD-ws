@@ -24,11 +24,11 @@ $ cargo build
 To connect via websocket for 10 seconds and store the data in a file ("output/BTC-USD.txt") run (in the parent directory):
 ### Via Cargo:
 ```
-$ cargo run cache
+$ cargo run --mode=cache
 ```
 ### Via executable client
 ```
-$ /.client cache
+$ /.simple --mode=cache
 ```
 To show the collected data, run:
 
@@ -38,7 +38,7 @@ $ cargo run read
 ```
 ### Via executable client
 ```
-$ /.client read
+$ /.simple --mode=read
 ```
 # Visualizations
 When you want to generate a plot of both raw trade streams and aggregate, in src/main.rs line 16, set the third argument to be true:

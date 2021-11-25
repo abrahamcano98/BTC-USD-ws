@@ -27,8 +27,6 @@ pub struct Sample {
     pub quantity: f32,
   }
 
-
-
 /// Function to establish a connection with the cryptocompare api. It returns the current usd/usdt exchange value.
 ///
 ///
@@ -161,6 +159,6 @@ pub fn write_data(file_name: &str, input_data: Vec<Sample>, save_img: bool){
 pub fn show_data(){
 
     let data=fs::read_to_string("output/BTC-USD.txt").expect("No previous execution. 
-    Please, run \"cargo run cache\\./client cache\".");
+    Please, run \"cargo run --mode=cache\\./client --mode=cache\".");
     println!("{}",data)
     }
