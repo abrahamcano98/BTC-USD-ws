@@ -1,0 +1,10 @@
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/freetype.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/dist.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/package.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/package_source.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/edit_cache.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/rebuild_cache.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/list_install_components.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/install.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/install/local.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/freetype-sys-a14cf46b516efd54/out/build/CMakeFiles/install/strip.dir

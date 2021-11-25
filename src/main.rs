@@ -16,7 +16,7 @@ fn main(){
     match mode.as_str(){
         "cache" => {
             let data=core::ws_connection("ws/btcusdt@trade",false,10);
-            core::write_data("BTC-USD.txt",data,false);
+            core::write_data("BTC-USD.txt",data,true);
         },
         "read" =>{core::show_data()
         },

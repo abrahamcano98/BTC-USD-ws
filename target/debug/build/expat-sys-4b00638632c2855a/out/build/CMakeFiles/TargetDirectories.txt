@@ -1,0 +1,7 @@
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/expat.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/edit_cache.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/rebuild_cache.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/list_install_components.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/install.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/install/local.dir
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/install/strip.dir

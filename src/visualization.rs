@@ -35,10 +35,10 @@ pub fn time_series_plot(input_data: Vec<core::Sample>) -> Result<(), Box<dyn std
     min_value=(*price_time.iter().min_by(|a, b| a.1.partial_cmp(&b.1).unwrap()).unwrap()).1;
     max_value=(*price_time.iter().max_by(|a, b| a.1.partial_cmp(&b.1).unwrap()).unwrap()).1;
 
-    let root = BitMapBackend::new("output/BTC-USDT-timedata.png", (640, 480)).into_drawing_area();
+    let root = BitMapBackend::new("output/BTC-USD-timedata.png", (640, 480)).into_drawing_area();
     root.fill(&WHITE)?;
     let mut chart = ChartBuilder::on(&root)
-        .caption("BTC-USDT price", ("sans-serif", 50).into_font())
+        .caption("BTC-USD price", ("sans-serif", 50).into_font())
         .margin(5)
         .x_label_area_size(30)
         .y_label_area_size(60)
@@ -51,7 +51,7 @@ pub fn time_series_plot(input_data: Vec<core::Sample>) -> Result<(), Box<dyn std
            price_time,
             &RED,
         ))?
-        .label("BTC-USDT")
+        .label("BTC-USD")
         .legend(|(x, y)| PathElement::new(vec![(x, y), (x + 20, y)], &RED));
 
     chart

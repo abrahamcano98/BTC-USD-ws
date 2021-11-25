@@ -1,0 +1,12 @@
+/home/abraham/Desktop/BTC-USD-ws/target/debug/deps/crc32fast-17beacc671ff53c8.rmeta: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/baseline.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/combine.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/mod.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/table.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/pclmulqdq.rs
+
+/home/abraham/Desktop/BTC-USD-ws/target/debug/deps/libcrc32fast-17beacc671ff53c8.rlib: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/baseline.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/combine.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/mod.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/table.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/pclmulqdq.rs
+
+/home/abraham/Desktop/BTC-USD-ws/target/debug/deps/crc32fast-17beacc671ff53c8.d: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/baseline.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/combine.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/mod.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/table.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/pclmulqdq.rs
+
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/lib.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/baseline.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/combine.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/mod.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/table.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.1/src/specialized/pclmulqdq.rs:

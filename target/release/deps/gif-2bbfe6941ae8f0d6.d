@@ -1,0 +1,13 @@
+/home/abraham/Desktop/BTC-USD-ws/target/release/deps/gif-2bbfe6941ae8f0d6.rmeta: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/traits.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/common.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/mod.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/decoder.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/encoder.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/../README.md
+
+/home/abraham/Desktop/BTC-USD-ws/target/release/deps/libgif-2bbfe6941ae8f0d6.rlib: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/traits.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/common.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/mod.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/decoder.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/encoder.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/../README.md
+
+/home/abraham/Desktop/BTC-USD-ws/target/release/deps/gif-2bbfe6941ae8f0d6.d: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/traits.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/common.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/mod.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/decoder.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/encoder.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/../README.md
+
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/lib.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/traits.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/common.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/mod.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/reader/decoder.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/encoder.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.11.3/src/../README.md:

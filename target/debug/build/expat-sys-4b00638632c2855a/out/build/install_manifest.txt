@@ -1,0 +1,4 @@
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/lib/libexpat.a
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/include/expat.h
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/include/expat_external.h
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/lib/pkgconfig/expat.pc

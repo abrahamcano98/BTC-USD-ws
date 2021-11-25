@@ -13,16 +13,15 @@ git clone https://github.com/abrahamcano98/BTC-USD-ws
 
 
 # Building
-On linux, if openssl is not already installed run:
-```
-$ sudo apt-get install libssl-dev
-```
+## Prerequisites
+The requirements are explained at "install.txt".
+
 Then, execute (cargo only):
 ```
 $ cargo build
 ```
 # Basic usage
-To connect via websocket for 10 seconds and store the data in a file ("output/BTC-USD.txt") run:
+To connect via websocket for 10 seconds and store the data in a file ("output/BTC-USD.txt") run (in the parent directory):
 ### Via Cargo:
 ```
 $ cargo run cache

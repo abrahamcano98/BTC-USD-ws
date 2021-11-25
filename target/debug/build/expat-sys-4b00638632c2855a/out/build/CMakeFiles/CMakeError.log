@@ -1,0 +1,60 @@
+Determining if the off_t exist failed with the following output:
+Change Dir: /home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7c98/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7c98.dir/build.make CMakeFiles/cmTC_d7c98.dir/build
+make[1]: Entering directory '/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7c98.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_d7c98.dir/CheckSymbolExists.c.o -c /home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before ‘off_t’
+    8 |   return ((int*)(&off_t))[argc];
+      |                   ^~~~~
+make[1]: *** [CMakeFiles/cmTC_d7c98.dir/build.make:78: CMakeFiles/cmTC_d7c98.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_d7c98/fast] Error 2
+
+
+File /home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the size_t exist failed with the following output:
+Change Dir: /home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68233/fast && /usr/bin/make  -f CMakeFiles/cmTC_68233.dir/build.make CMakeFiles/cmTC_68233.dir/build
+make[1]: Entering directory '/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68233.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_68233.dir/CheckSymbolExists.c.o -c /home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before ‘size_t’
+    8 |   return ((int*)(&size_t))[argc];
+      |                   ^~~~~~
+make[1]: *** [CMakeFiles/cmTC_68233.dir/build.make:78: CMakeFiles/cmTC_68233.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_68233/fast] Error 2
+
+
+File /home/abraham/Desktop/BTC-USD-ws/target/debug/build/expat-sys-4b00638632c2855a/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef size_t
+  return ((int*)(&size_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

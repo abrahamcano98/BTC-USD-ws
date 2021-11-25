@@ -1,0 +1,4 @@
+make[1]: warning: -j1 forced in submake: resetting jobserver mode.
+ar: `u' modifier ignored since `D' is the default (see `U')
+/usr/bin/ld: test-migration.o: in function `fc_mkdtemp':
+test-migration.c:(.text+0x18): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'

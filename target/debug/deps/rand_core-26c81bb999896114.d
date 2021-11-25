@@ -1,0 +1,12 @@
+/home/abraham/Desktop/BTC-USD-ws/target/debug/deps/rand_core-26c81bb999896114.rmeta: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs
+
+/home/abraham/Desktop/BTC-USD-ws/target/debug/deps/librand_core-26c81bb999896114.rlib: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs
+
+/home/abraham/Desktop/BTC-USD-ws/target/debug/deps/rand_core-26c81bb999896114.d: /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs /home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs
+
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs:
+/home/abraham/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs:
