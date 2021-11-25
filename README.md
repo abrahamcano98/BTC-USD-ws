@@ -24,7 +24,7 @@ $ cargo build
 To connect via websocket for 10 seconds and store the data in a file ("output/BTC-USD.txt") run (in the parent directory):
 ### Via Cargo:
 ```
-$ cargo run --mode=cache
+$ cargo run -- --mode=cache
 ```
 ### Via executable client
 ```
@@ -34,7 +34,7 @@ To show the collected data, run:
 
 ### Via Cargo:
 ```
-$ cargo run --mode=read
+$ cargo run -- --mode=read
 ```
 ### Via executable client
 ```

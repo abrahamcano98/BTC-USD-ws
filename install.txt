@@ -161,6 +161,7 @@ Deal with fontconfig error:
         1)Go to https://packages.ubuntu.com/bionic/all/fontconfig-config/download and download the .deb file
         2) In a terminal, run:
             $sudo dpkg --install ~/Downloads/fontconfig-config_2.12.6-0ubuntu2_all.deb
+            sudo cp -L -r /etc/fonts/conf.d /tmp/etc-fonts-conf.d
             sudo apt --fix-broken install
             sudo  cp -L -r  /tmp/etc-fonts-conf.d/* /etc/fonts/conf.d/
         3) Edit the file "/etc/fonts/fonts.conf" and remove all the lines that start with the tag <its: and the tag <description>.
