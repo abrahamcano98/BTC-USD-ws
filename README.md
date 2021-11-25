@@ -34,7 +34,7 @@ To show the collected data, run:
 
 ### Via Cargo:
 ```
-$ cargo run read
+$ cargo run --mode=read
 ```
 ### Via executable client
 ```
